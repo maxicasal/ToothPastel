@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zc8-gy-Nfr">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--AdoredToothpastes-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="AdoredToothpastesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="9YU-vw-gUd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCellID" id="xcW-RE-58l">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xcW-RE-58l" id="7zf-3B-PuS">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.017532302900293506" green="0.01301579426564814" blue="1" alpha="0.20999999999999999" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="QKs-WE-zeA"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="JVh-hJ-a6c"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9YU-vw-gUd" secondAttribute="bottom" id="4PZ-4K-BL8"/>
+                            <constraint firstItem="9YU-vw-gUd" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="A3U-Tc-FMS"/>
+                            <constraint firstItem="9YU-vw-gUd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="NaJ-Ed-x0C"/>
+                            <constraint firstAttribute="trailing" secondItem="9YU-vw-gUd" secondAttribute="trailing" id="eEr-Rp-jBe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AdoredToothpastes" id="2ln-Kl-LVB">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IfH-Pw-Pzl">
+                            <color key="tintColor" red="1" green="0.063844463089999998" blue="0.18538073690000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="EvL-J2-cOl" kind="show" id="icV-00-xg3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="adoredTableView" destination="9YU-vw-gUd" id="H6a-Yt-Qd1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="967"/>
+        </scene>
+        <!--Toothpastes Table Table View Controller-->
+        <scene sceneID="n5Y-vJ-eoN">
+            <objects>
+                <tableViewController id="EvL-J2-cOl" customClass="ToothpastesTableTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="pOY-9J-hA8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToothCell" id="Dog-9i-1ub">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dog-9i-1ub" id="xDK-FK-OBM">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.25371876710000002" green="1" blue="0.16639575030000001" alpha="0.27000000000000002" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="0P3-pN-4FY" kind="unwind" unwindAction="unWindFroomToothpastesViewController:" id="Sxb-fe-kpV"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="EvL-J2-cOl" id="Km3-25-etO"/>
+                            <outlet property="delegate" destination="EvL-J2-cOl" id="ubN-oK-Bcz"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Gs-bB-Hzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="0P3-pN-4FY" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1794" y="967"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wdu-e1-LDH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zc8-gy-Nfr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dba-gZ-csm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="LJu-b5-RRN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtM-OE-3N4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="960"/>
+        </scene>
+    </scenes>
+</document>

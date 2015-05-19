@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5444852719F01E210069908D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444852619F01E210069908D /* main.m */; };
+		5444852A19F01E210069908D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444852919F01E210069908D /* AppDelegate.m */; };
+		5444852D19F01E210069908D /* AdoredToothpastesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444852C19F01E210069908D /* AdoredToothpastesViewController.m */; };
+		5444853019F01E210069908D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5444852E19F01E210069908D /* Main.storyboard */; };
+		5444853219F01E210069908D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5444853119F01E210069908D /* Images.xcassets */; };
+		5444853519F01E210069908D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5444853319F01E210069908D /* LaunchScreen.xib */; };
+		5444854119F01E210069908D /* TootpastelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444854019F01E210069908D /* TootpastelTests.m */; };
+		5444854C19F023DA0069908D /* ToothpastesTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444854B19F023DA0069908D /* ToothpastesTableTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5444853B19F01E210069908D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5444851919F01E210069908D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5444852019F01E210069908D;
+			remoteInfo = Tootpastel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5444852119F01E210069908D /* Tootpastel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tootpastel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5444852519F01E210069908D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5444852619F01E210069908D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5444852819F01E210069908D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5444852919F01E210069908D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5444852B19F01E210069908D /* AdoredToothpastesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdoredToothpastesViewController.h; sourceTree = "<group>"; };
+		5444852C19F01E210069908D /* AdoredToothpastesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdoredToothpastesViewController.m; sourceTree = "<group>"; };
+		5444852F19F01E210069908D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5444853119F01E210069908D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5444853419F01E210069908D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5444853A19F01E210069908D /* TootpastelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TootpastelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5444853F19F01E210069908D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5444854019F01E210069908D /* TootpastelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TootpastelTests.m; sourceTree = "<group>"; };
+		5444854A19F023DA0069908D /* ToothpastesTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToothpastesTableTableViewController.h; sourceTree = "<group>"; };
+		5444854B19F023DA0069908D /* ToothpastesTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToothpastesTableTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5444851E19F01E210069908D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5444853719F01E210069908D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5444851819F01E210069908D = {
+			isa = PBXGroup;
+			children = (
+				5444852319F01E210069908D /* Tootpastel */,
+				5444853D19F01E210069908D /* TootpastelTests */,
+				5444852219F01E210069908D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5444852219F01E210069908D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5444852119F01E210069908D /* Tootpastel.app */,
+				5444853A19F01E210069908D /* TootpastelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5444852319F01E210069908D /* Tootpastel */ = {
+			isa = PBXGroup;
+			children = (
+				5444852819F01E210069908D /* AppDelegate.h */,
+				5444852919F01E210069908D /* AppDelegate.m */,
+				5444852B19F01E210069908D /* AdoredToothpastesViewController.h */,
+				5444852C19F01E210069908D /* AdoredToothpastesViewController.m */,
+				5444854A19F023DA0069908D /* ToothpastesTableTableViewController.h */,
+				5444854B19F023DA0069908D /* ToothpastesTableTableViewController.m */,
+				5444852E19F01E210069908D /* Main.storyboard */,
+				5444853119F01E210069908D /* Images.xcassets */,
+				5444853319F01E210069908D /* LaunchScreen.xib */,
+				5444852419F01E210069908D /* Supporting Files */,
+			);
+			path = Tootpastel;
+			sourceTree = "<group>";
+		};
+		5444852419F01E210069908D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5444852519F01E210069908D /* Info.plist */,
+				5444852619F01E210069908D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5444853D19F01E210069908D /* TootpastelTests */ = {
+			isa = PBXGroup;
+			children = (
+				5444854019F01E210069908D /* TootpastelTests.m */,
+				5444853E19F01E210069908D /* Supporting Files */,
+			);
+			path = TootpastelTests;
+			sourceTree = "<group>";
+		};
+		5444853E19F01E210069908D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5444853F19F01E210069908D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5444852019F01E210069908D /* Tootpastel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5444854419F01E210069908D /* Build configuration list for PBXNativeTarget "Tootpastel" */;
+			buildPhases = (
+				5444851D19F01E210069908D /* Sources */,
+				5444851E19F01E210069908D /* Frameworks */,
+				5444851F19F01E210069908D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tootpastel;
+			productName = Tootpastel;
+			productReference = 5444852119F01E210069908D /* Tootpastel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5444853919F01E210069908D /* TootpastelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5444854719F01E210069908D /* Build configuration list for PBXNativeTarget "TootpastelTests" */;
+			buildPhases = (
+				5444853619F01E210069908D /* Sources */,
+				5444853719F01E210069908D /* Frameworks */,
+				5444853819F01E210069908D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5444853C19F01E210069908D /* PBXTargetDependency */,
+			);
+			name = TootpastelTests;
+			productName = TootpastelTests;
+			productReference = 5444853A19F01E210069908D /* TootpastelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5444851919F01E210069908D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Maxi Casal";
+				TargetAttributes = {
+					5444852019F01E210069908D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5444853919F01E210069908D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5444852019F01E210069908D;
+					};
+				};
+			};
+			buildConfigurationList = 5444851C19F01E210069908D /* Build configuration list for PBXProject "Tootpastel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5444851819F01E210069908D;
+			productRefGroup = 5444852219F01E210069908D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5444852019F01E210069908D /* Tootpastel */,
+				5444853919F01E210069908D /* TootpastelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5444851F19F01E210069908D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5444853019F01E210069908D /* Main.storyboard in Resources */,
+				5444853519F01E210069908D /* LaunchScreen.xib in Resources */,
+				5444853219F01E210069908D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5444853819F01E210069908D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5444851D19F01E210069908D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5444852D19F01E210069908D /* AdoredToothpastesViewController.m in Sources */,
+				5444854C19F023DA0069908D /* ToothpastesTableTableViewController.m in Sources */,
+				5444852A19F01E210069908D /* AppDelegate.m in Sources */,
+				5444852719F01E210069908D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5444853619F01E210069908D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5444854119F01E210069908D /* TootpastelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5444853C19F01E210069908D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5444852019F01E210069908D /* Tootpastel */;
+			targetProxy = 5444853B19F01E210069908D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5444852E19F01E210069908D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5444852F19F01E210069908D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5444853319F01E210069908D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5444853419F01E210069908D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5444854219F01E210069908D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5444854319F01E210069908D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5444854519F01E210069908D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tootpastel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5444854619F01E210069908D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tootpastel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5444854819F01E210069908D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TootpastelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tootpastel.app/Tootpastel";
+			};
+			name = Debug;
+		};
+		5444854919F01E210069908D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TootpastelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tootpastel.app/Tootpastel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5444851C19F01E210069908D /* Build configuration list for PBXProject "Tootpastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5444854219F01E210069908D /* Debug */,
+				5444854319F01E210069908D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5444854419F01E210069908D /* Build configuration list for PBXNativeTarget "Tootpastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5444854519F01E210069908D /* Debug */,
+				5444854619F01E210069908D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5444854719F01E210069908D /* Build configuration list for PBXNativeTarget "TootpastelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5444854819F01E210069908D /* Debug */,
+				5444854919F01E210069908D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5444851919F01E210069908D /* Project object */;
+}
